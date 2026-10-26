@@ -418,6 +418,7 @@ def handle_help(
     "verify",
     is_flag=True,
     default=True,
+    flag_value=False,
     help="Disable SSL verification.",
 )
 @click.option(
